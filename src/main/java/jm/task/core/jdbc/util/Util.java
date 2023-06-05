@@ -21,9 +21,9 @@ public class Util {
 
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
-            if (!connection.isClosed()) {
-                System.out.println("Start OK");
-            }
+//            if (!connection.isClosed()) {
+//                System.out.println("Start OK");
+//            }
 //            connection.close();
 //            if (connection.isClosed()) {
 //                System.out.println("Close OK");
